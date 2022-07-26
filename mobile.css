@@ -1,0 +1,429 @@
+@media screen and (min-width: 400px) and (max-width: 799px) {
+    header {
+        position: sticky;
+        top: 0;
+        background: white;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+        height: auto;
+        padding: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header div.brand img {
+        height:60px;
+        margin: 0 150px 0 0;
+    }
+    header nav div.switch {
+        font-size: 25px;
+        cursor: pointer;
+        margin: 20px auto;
+    }
+    header nav div.switch i.fa-times {
+        display: none;
+    }
+    main section#board {
+        background: rgb(236, 250, 255);
+        padding: 20px 0;
+    }
+    main section#board div.board-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 50px;
+    }
+    main section#board div.board-container div.text {
+        line-height: 30px;
+        padding: 0  0 0 30px;
+    }
+
+    main section#board div.board-container div.text h1>div {
+        color: #0e3095;
+    }
+    main section#board div.board-container div.text div.board-btn button {
+        margin: 20px 10px;
+    }
+
+    main section#board div.board-container div.text div.board-btn button#explore-btn {
+        background-color: #0e3095;
+    }
+    main section#board div.board-container div.text div.board-btn button#shop-btn {
+        border: 2px solid #0e3095;
+        color: #0e3095;
+    }
+
+    main section#board div.board-container div.image {
+        display: flex;
+    }
+    main section#board div.board-container div.website-details {
+        background: linear-gradient(to left, rgb(236, 250, 255), #d8e1f8);
+        border-radius: 20rem;
+    }
+
+    main section#board div.board-container div.website-details div.date,
+    main section#board div.board-container div.website-details div.bid,
+    main section#board div.board-container div.website-details div.place {
+        display: flex;
+        align-items: center;
+        margin: 5px 20px;
+    }
+    main section#board div.board-container div.website-details div.date i,
+    main section#board div.board-container div.website-details div.bid i,
+    main section#board div.board-container div.website-details div.place i {
+        background-color: #f8f8f8;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    main section#board div.board-container div.website-details div span {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    main section#board div.board-container div.website-details div span p {
+        font-size: 12px;
+        margin-top: 4px;
+        color: gray;
+    }
+
+    main section#board div.more {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        margin: 0 30px;
+    }
+    main section#board div.more div {
+        margin: 20px 50px;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 1vh;
+    }
+
+    main section#board div.more div:hover {
+        background: #d7d7d7d7;
+    }
+
+    main section#board div.more div.searching input {
+        background: rgb(236, 250, 255);
+        padding: 10px;
+        border-radius: 1vh;
+    }
+    main section#board div.more div.searching button {
+        color: black;
+        background: rgb(236, 250, 255);
+    }
+    main section#motto {
+        margin: 50px 30px;
+        background: #d7d7d7d7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    main section#motto div.the-motto {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+    main section#motto div.the-motto span.motto-text {
+        color: rgb(62, 57, 92);
+        font-weight: 700;
+    }
+
+    main section#motto div.the-motto i.fa-quote-right {
+        color: #0e3095;
+        padding: 10px 0;
+        text-align: center;
+    }
+    main section#motto div.motto-image img {
+        height: 200px;
+        width: 200px;
+    }
+
+    main section#motto div.the-motto span.motto-text button#shop-btn {
+        background: #0e3095;
+        color: white;
+    }
+    section#products,
+    section#outfit {
+        margin: 50px 30px;
+    }
+
+    section#products div.title-and-btn {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    section#products div.title-and-btn button {
+        background: #0e3095;
+    }
+
+    section#products div#product-temp-board {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section#products div#product-temp-board div.product-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 10px;
+    }
+
+    section#products div#product-temp-board div.product-details div.feat {
+        display: flex;
+        margin: 30px;
+    }
+    section#products div#product-temp-board div.product-details div.feat div {
+        margin: 10px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    section#products div#product-temp-board div.product-details button {
+        background: #0e3095;
+        padding: 10px 50px;
+    }
+    section#review {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 30px;
+    }
+
+    section#review div.posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section#review div.posts div {
+        text-align: center;
+        background-color: white;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px 1px rgba(189, 189, 189, 0.7),
+            2px 2px 2px -1px rgba(189, 189, 189, 0.7);
+        margin: 20px;
+        padding: 50px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2vh;
+        width: 250px;
+    }
+    section#review div.posts div:nth-child(odd) {
+        /* margin-top: 150px; */
+    }
+
+    section#review div.posts div:nth-child(odd) i {
+        color: #0e3095;
+    }
+
+    section#review div.posts div:nth-child(even) {
+        background: #0e3095;
+        color: white;
+    }
+    section#review div.posts div:nth-child(even) button {
+        background: white;
+        color: #0e3095;
+    }
+
+    section#review div.posts div i {
+        color: auto;
+        border-radius: 15rem;
+        padding: 20px 0;
+    }
+    section#review div.posts div h1 {
+        margin: 10px 0;
+    }
+    section#review div.posts div span {
+        margin: 10px 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    section#review div.posts div button {
+        background: #0e3095;
+        margin-top: 50px;
+    }
+
+    section#review div.visions {
+        background: #d7d7d7d7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 100px 220px; */
+        padding: 40px;
+        border-radius: 2vh;
+    }
+
+    section#review div.visions div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 30px;
+    }
+
+    section#review div.visions div h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    section#review div.visions hr {
+        border: 1px solid grey;
+        border-radius: 1px;
+        width: 200px;
+        height: 1px;
+        margin: 25px 0;
+    }
+    section#outfit div.outfit-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    section#outfit div.outfit-header span {
+        color: grey;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    section#outfit div.outfit-header button {
+        background: #0e3095;
+        padding: 15px 20px;
+    }
+    section#outfit div.outfit-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    section#outfit div.outfit-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 10px;
+    }
+    section#outfit div.outfit-details div.feat {
+        display: flex;
+        margin: 30px;
+    }
+
+    section#outfit div.outfit-details div.feat div {
+        margin: 10px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    section#outfit div.outfit-details div.feat div.product-name p {
+        color: grey;
+        font-weight: 300;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    section#outfit div.outfit-details div.feat div.product-price {
+        color: #0e3095;
+        font-size: 25px;
+    }
+    section#temp-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section#temp-contact h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    section#temp-contact div.contact-form {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    section#temp-contact div.contact-form button {
+        background: #0e3095;
+        font-size: 20px;
+        padding: 20px;
+        margin: 30px;
+    }
+    footer {
+        background: rgb(9, 0, 41);
+        color: grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 50px;
+        margin-top: 50px;
+    }
+    footer div.brand-com img {
+        /* filter: opacity(0.5) drop-shadow(0 0 0 red) brightness(200); */
+        width: 100px;
+        height: 50px;
+    }
+
+    footer div.brand-com p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 40px;
+    }
+    footer div.brand-com ul {
+        display: flex;
+        /* align-items: center; */
+        flex-wrap: wrap;
+    }
+
+    footer div.brand-com ul li {
+        margin: 20px 10px;
+    }
+
+    footer div.brand-com ul li a {
+        color: #0e3095;
+    }
+    footer div.lists {
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        
+    }
+    footer div.lists div.home-comp, footer div.lists div.feat-cont {
+        display: flex;
+    }
+
+    footer div.lists div.the-home {
+        margin: 10px 20px;
+    }
+
+    footer div.lists div.the-home:nth-child(3) h4 {
+        margin-top: 35px;
+    }
+
+    footer div.lists div.the-home:nth-child(4) h4 {
+        margin-top: 20px;
+    }
+
+    footer div.lists div.the-home ul li {
+        margin: 20px 0;
+        font-size: 13px;
+    }
+    div.footer {
+        background: #0e3095;
+        height: 30px;
+    }
+}
