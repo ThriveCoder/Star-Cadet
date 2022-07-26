@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <title>Star Cadet</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <img src="./starcadetLogo.png" width="150" height="70" alt="logo" id="logo">
+            </div>
+            <nav>
+                <div class="switch">
+                    <i class="fa fa-align-left active"></i>
+                    <i class="fa fa-times"></i>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Features</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
+            <span class="header-btn">
+                <button id="contact-btn">Contact Us</button>
+                <button id="login-btn">Login</button>
+            </span>
+        </header>
+        <main>
+            <section id="board">
+                <div class="board-container">
+                    <div class="text">
+                        <h1>
+                            All Your Needs <div>Are Here</div>
+                        </h1>
+                        <p>
+                            This e-commerce website is a platform where you can order or <br> purchase any items. You can also find electronic items.
+                        </p>
+                        <div class="board-btn">
+                            <button id="explore-btn">Explore Now</button>
+                            <button id="shop-btn">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="./shop-g820bfe63e_1920.jpg" alt="" width="400">
+                        
+                    </div>
+                    <div class="website-details">
+                            <div class="date">
+                                <i class="far fa-calendar"></i>
+                                <span class="date-span">
+                                    <h3>104</h3>
+                                    <p >Year(s)</p>
+                                </span>
+                            </div>
+                            <div class="bid">
+                                <i class="fa fa-book-reader"></i>
+                                <span class="date-span">
+                                    <h3>30</h3>
+                                    <p >Bids so far</p>
+                                </span>
+                            </div>
+                            <div class="place">
+                                <i class="fa fa-home"></i>
+                                <span class="date-span">
+                                    <h3>Nigeria</h3>
+                                    <p>Origin</p>
+                                </span>
+                            </div>
+                        </div>
+                </div>
+                <div class="more">
+                    <div class="location">
+                        <h5>Location</h5>
+                        <p>Nigeria</p>
+                    </div>
+                    <div class="time">
+                        <h5>Date</h5>
+                        <p id="date"></p>
+                    </div>
+                    <div class="year">
+                        <h5>Year Established</h5>
+                        <p>2020</p>
+                    </div>
+                    <div class="products">
+                        <h5>Products</h5>
+                        <p>All products</p>
+                    </div>
+                    <div class="searching">
+                        <input type="search" id="search" placeholder="You can search here">
+                        <button>
+                            <i class="fa fa-search"></i>
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section id="motto">
+                <div class="the-motto">
+                    <span class="motto-text">
+                        our experience to always update the latest things"
+                    </span>
+                    <i class="fa fa-quote-right"></i>
+                </div>
+                <div class="motto-image">
+                    <img src="./ProductImages/shirt2.jpg" alt="" width="80" height="80">
+                </div>
+                <div class="the-motto">
+                    <span class="motto-text">
+                        No more running out of the office at anytime on anyday to find new products. <mark>Star Cadet</mark> is now open (24hrs 7days). Get your any product of your choice at economical price"
+                        <button id="shop-btn">Shop Now</button>
+                    </span>
+                </div>
+            </section>
+            <section id="products">
+                <div class="title-and-btn">
+                    <div class="title">
+                        <h1>Our best selling products</h1>
+                    </div>
+                    <button>
+                        See all products
+                        <i class="fa fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div id="product-temp-board">
+                    <div class="product-details">
+                        <img src="./ProductImages/airpod.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">Airpod Pro</div>
+                            <div class="product-price"><mark>$</mark>113.56</div>
+                        </div>
+                        <button id="add-to-cart-btn">
+                            Add to cart 
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                    <div class="product-details">
+                        <img src="./ProductImages/speaker2.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">BT Speaker</div>
+                            <div class="product-price"><mark>$</mark>113.56</div>
+                        </div>
+                        <button id="add-to-cart-btn">
+                            Add to cart 
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                    <div class="product-details">
+                        <img src="./ProductImages/cargopant1.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">Cargo Pant</div>
+                            <div class="product-price"><mark>$</mark>113.56</div>
+                        </div>
+                        <button id="add-to-cart-btn">
+                            Add to cart 
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                    <div class="product-details">
+                        <img src="./ProductImages/bottle.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">Faashion Bottle</div>
+                            <div class="product-price"><mark>$</mark>113.56</div>
+                        </div>
+                        <button id="add-to-cart-btn">
+                            Add to cart 
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                    <div class="product-details">
+                        <img src="./ProductImages/guitar.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">Guitar</div>
+                            <div class="product-price"><mark>$</mark>113.56</div>
+                        </div>
+                        <button id="add-to-cart-btn">
+                            Add to cart 
+                            <i class="fa fa-shopping-cart"></i>
+                        </button>
+                    </div>
+                    
+                </div>
+
+            </section>
+            <section id="review">
+                <div class="posts">
+                    <div class="post1">
+                        <i class="fa fa-history"></i>
+                        <h4>Years of experience </h4>
+                        <span>Fashion yourself as a payfast application user</span>
+                        <button value="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro soluta officia dolore eaque obcaecati optio sunt inventore perferendis, quasi dolores architecto deserunt ducimus quas esse reprehenderit iusto? Corporis, nulla natus!">Read more</button>
+                    </div>
+                    <div class="post2">
+                        <i class="fa fa-award"></i>
+                        <h4>Achivement</h4>
+                        <span>Fashion yourself as a payfast application user</span>
+                        <button value="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro soluta officia dolore eaque obcaecati optio sunt inventore perferendis, quasi dolores architecto deserunt ducimus quas esse reprehenderit iusto? Corporis, nulla natus!">Read more</button>
+                    </div>
+                    <div class="post3">
+                        <i class="far fa-star"></i>
+                        <h4>Positive Review</h4>
+                        <span>Fashion yourself as a payfast application user</span>
+                        <button value="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro soluta officia dolore eaque obcaecati optio sunt inventore perferendis, quasi dolores architecto deserunt ducimus quas esse reprehenderit iusto? Corporis, nulla natus!">Read more</button>
+                    </div>
+                </div>
+                <div class="visions">
+                    <div class="vision1">
+                        <h1>36+</h1>
+                        <span>User Trust</span>
+                    </div>
+                    <hr>
+                    <div class="vision2">
+                        <h1>42K+</h1>
+                        <span>Brand Vision</span>
+                    </div>
+                    <hr>
+                    <div class="vision1">
+                        <h1>8K+</h1>
+                        <span>Achivement</span>
+                    </div>
+                </div>
+                
+            </section>
+            <section id="outfit">
+                <div class="outfit-header">
+                    <h1>Trending outfit of the day</h1>
+                    <span>The e-commerce site has an eye catching <br>design and is perfect for people who want to <br>buy diffferent items, but don't have time for <br>shopping</span>
+                    <button id="explore-btn">Explore</button>
+                </div>
+                <div class="outfit-images">
+                    <div class="outfit-details">
+                        <img src="./ProductImages/shirt1.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">
+                                Flower shirt
+                                <p>Collection 2022</p>
+                            </div>
+                            <div class="product-price"><mark>$</mark>173</div>
+                        </div>
+                    </div>
+                    <div class="outfit-details">
+                        <img src="./ProductImages/shirt2.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">
+                                Round neck Top 
+                                <p>Collection 2022</p>
+                            </div>
+                            <div class="product-price"><mark>$</mark>210</div>
+                        </div>
+                    </div>
+                    <div class="outfit-details">
+                        <img src="./ProductImages/shirt3.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">
+                                Round Nect packed shirts
+                                <p>Collection 2022</p>
+                            </div>
+                            <div class="product-price"><mark>$</mark>344</div>
+                        </div>
+                    </div>
+                    <!-- <div class="outfit-details">
+                        <img src="./ProductImages/shirt4.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">Guitar
+                                <p>Collection 2022</p>
+                            </div>
+                            <div class="product-price"><mark>$</mark>113.56</div>
+                        </div>
+                    </div> -->
+                    <div class="outfit-details">
+                        <img src="./ProductImages/shirt5.jpg" width="150" height="150" alt="">
+                        <div class="feat">
+                            <div class="product-name">
+                                Hoodie
+                                <p>Collection 2022</p>
+                            </div>
+                            <div class="product-price"><mark>$</mark>110</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="temp-contact">
+                <h1>
+                    Have Any Question?
+                </h1>
+                <div class="contact-form">
+                    <button class="contact-btn">Contact us</button>
+                    <span>We reply as soon as your message drop</span>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="brand-com">
+                <img src="./starcadetlogo.png" alt="" width="150" height="150">
+                <p>Looking for an e-commerce website? We offer a turn key e-commerce website with the latest teachnology. Get your online store today!</p>
+                <ul>
+                    <li>
+                        <a href="#" class="fab fa-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fab fa-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lists">
+                <div class="home-comp">
+                    <div class="the-home">
+                        <h4>Home</h4>
+                        <ul>
+                            <li>
+                                <a href="">Discover</a>
+                            </li>
+                            <li>
+                                <a href="">Explore</a>
+                            </li>
+                            <li>
+                                <a href="">Join</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="the-home">
+                        <h4>Company</h4>
+                        <ul>
+                            <li>
+                                <a href="">Coporation</a>
+                            </li>
+                            <li>
+                                <a href="">Fashion</a>
+                            </li>
+                            <li>
+                                <a href="">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feat-cont">
+                    <div class="the-home">
+                        <h4>Features</h4>
+                        <ul>
+                            <li>
+                                <a href="">Shop</a>
+                            </li>
+                            <li>
+                                <a href="">Cart</a>
+                            </li>
+                            <li>
+                                <a href="">Notification</a>
+                            </li>
+                            <li>
+                                <a href="">Sales</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="the-home">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li>
+                                <a href="">Privacy & Policy</a>
+                            </li>
+                            <li>
+                                <a href="">+234 704 734 4365</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- <div class="footer" id="for"></div> -->
+    </div>
+    <!-- <script src="./script.js"></script> -->
+    <script>
+        var theDate = new Date();
+        document.getElementById("date").innerHTML = theDate.toLocaleDateString();
+    </script>
+</body>
+</html>
+
+<!-- 
+    Tablet portrait mode
+    @media screen and (max-width of 760px)
+ -->
